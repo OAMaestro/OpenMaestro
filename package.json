@@ -1,0 +1,16 @@
+{
+  "name": "openmaestro",
+  "version": "1.0.0",
+  "description": "Give any AI hands. Automate any browser-based workflow on your own machine.",
+  "license": "MIT",
+  "scripts": {
+    "inspect": "node scripts/inspect.js",
+    "scaffold": "node scripts/scaffold-workflow.js",
+    "test": "node tests/run-tests.js"
+  },
+  "dependencies": {
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "playwright": "^1.49.0"
+  }
+}

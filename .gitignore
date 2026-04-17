@@ -1,0 +1,27 @@
+# Generated platform brain files (created by install scripts)
+CLAUDE.md
+.cursorrules
+.windsurfrules
+AGENTS.md
+
+# Generated MCP configs (created by install scripts)
+.mcp.json
+.cursor/mcp.json
+.windsurf/mcp.json
+.vscode/mcp.json
+
+# Node
+node_modules/
+
+# Inspection screenshots
+tmp/*.png
+tmp/*.jpg
+
+# User-created workflows (not examples)
+workflows/*.md
+workflows/*-session.md
+!workflows/examples/
+
+# OS
+.DS_Store
+Thumbs.db
