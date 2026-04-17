@@ -1,0 +1,15 @@
+{
+  "_comment": "Reference MCP config. Copy to the appropriate location for your AI (see install script).",
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--headed",
+        "--browser", "chrome",
+        "--launch-option", "--disable-blink-features=AutomationControlled",
+        "--launch-option", "--window-size=1920,1080"
+      ]
+    }
+  }
+}
