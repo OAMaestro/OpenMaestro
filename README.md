@@ -1,5 +1,7 @@
 # OpenMaestro
-
+<p align="center">
+  <img src="assets/banner.png" alt="OpenMaestro" width="600">
+</p>
 **Give any AI hands. Automate anything you do in a browser — on your machine, with tools you already pay for, using whatever AI you already have.**
 
 No new subscriptions. No credential sharing. Watch it work in real time. Stop it any time.
