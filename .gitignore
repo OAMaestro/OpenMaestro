@@ -4,8 +4,7 @@ CLAUDE.md
 .windsurfrules
 AGENTS.md
 
-# Generated MCP configs (created by install scripts)
-.mcp.json
+# Generated MCP configs (created by install scripts — committed for Claude Code, gitignored for others)
 .cursor/mcp.json
 .windsurf/mcp.json
 .vscode/mcp.json

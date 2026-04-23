@@ -64,8 +64,8 @@ $mcpJson = @'
         "@playwright/mcp@latest",
         "--headed",
         "--browser", "chrome",
-        "--launch-option", "--disable-blink-features=AutomationControlled",
-        "--launch-option", "--window-size=1920,1080"
+        "--viewport-size", "1920x1080",
+        "--init-script", "scripts/stealth.init.js"
       ]
     }
   }
