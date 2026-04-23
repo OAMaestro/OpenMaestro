@@ -9,8 +9,8 @@
     "test": "node tests/run-tests.js"
   },
   "dependencies": {
+    "playwright": "^1.59.1",
     "playwright-extra": "^4.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2",
-    "playwright": "^1.49.0"
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
