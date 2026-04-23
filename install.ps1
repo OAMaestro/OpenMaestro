@@ -63,7 +63,6 @@ $mcpJson = @'
       "args": [
         "/c", "npx",
         "@playwright/mcp@latest",
-        "--headed",
         "--browser", "chrome",
         "--viewport-size", "1920x1080",
         "--init-script", "scripts/stealth.init.js"
