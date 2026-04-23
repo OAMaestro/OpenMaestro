@@ -64,8 +64,9 @@ echo -e "${BLUE}[4/6] Configuring Playwright MCP for $AI_NAME...${NC}"
 MCP_JSON='{
   "mcpServers": {
     "playwright": {
-      "command": "npx",
+      "command": "cmd",
       "args": [
+        "/c", "npx",
         "@playwright/mcp@latest",
         "--headed",
         "--browser", "chrome",

@@ -59,8 +59,9 @@ $mcpJson = @'
 {
   "mcpServers": {
     "playwright": {
-      "command": "npx",
+      "command": "cmd",
       "args": [
+        "/c", "npx",
         "@playwright/mcp@latest",
         "--headed",
         "--browser", "chrome",
